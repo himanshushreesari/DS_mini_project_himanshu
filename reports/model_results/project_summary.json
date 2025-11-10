@@ -1,0 +1,22 @@
+{
+    "project_name": "Population Group-wise Deposits Analysis",
+    "dataset": {
+        "original_records": 14037,
+        "cleaned_records": 6977,
+        "features_created": 17,
+        "final_features": 21
+    },
+    "best_model": {
+        "name": "Extra Trees",
+        "test_r2": 0.9976411596358573,
+        "test_rmse": 1402.8694788949315,
+        "test_mae": 444.55579328935903
+    },
+    "total_models_trained": 18,
+    "gpu_acceleration": {
+        "tensorflow": true,
+        "pytorch": true,
+        "xgboost": true,
+        "catboost": true
+    }
+}
